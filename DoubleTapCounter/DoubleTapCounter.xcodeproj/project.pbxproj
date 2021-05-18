@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24FCA452606689200F50032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FCA442606689200F50032 /* AppDelegate.swift */; };
+		C24FCA472606689200F50032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FCA462606689200F50032 /* SceneDelegate.swift */; };
+		C24FCA492606689200F50032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FCA482606689200F50032 /* ViewController.swift */; };
+		C24FCA4C2606689200F50032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24FCA4A2606689200F50032 /* Main.storyboard */; };
+		C24FCA4E2606689300F50032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24FCA4D2606689300F50032 /* Assets.xcassets */; };
+		C24FCA512606689300F50032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24FCA4F2606689300F50032 /* LaunchScreen.storyboard */; };
+		C24FCA5C2606689300F50032 /* DoubleTapCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FCA5B2606689300F50032 /* DoubleTapCounterTests.swift */; };
+		C24FCA672606689300F50032 /* DoubleTapCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FCA662606689300F50032 /* DoubleTapCounterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C24FCA582606689300F50032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24FCA392606689200F50032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24FCA402606689200F50032;
+			remoteInfo = DoubleTapCounter;
+		};
+		C24FCA632606689300F50032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24FCA392606689200F50032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24FCA402606689200F50032;
+			remoteInfo = DoubleTapCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C24FCA412606689200F50032 /* DoubleTapCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleTapCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24FCA442606689200F50032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C24FCA462606689200F50032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C24FCA482606689200F50032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C24FCA4B2606689200F50032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C24FCA4D2606689300F50032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24FCA502606689300F50032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C24FCA522606689300F50032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24FCA572606689300F50032 /* DoubleTapCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleTapCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24FCA5B2606689300F50032 /* DoubleTapCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTapCounterTests.swift; sourceTree = "<group>"; };
+		C24FCA5D2606689300F50032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24FCA622606689300F50032 /* DoubleTapCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleTapCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24FCA662606689300F50032 /* DoubleTapCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTapCounterUITests.swift; sourceTree = "<group>"; };
+		C24FCA682606689300F50032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C24FCA3E2606689200F50032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24FCA542606689300F50032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24FCA5F2606689300F50032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24FCA382606689200F50032 = {
+			isa = PBXGroup;
+			children = (
+				C24FCA432606689200F50032 /* DoubleTapCounter */,
+				C24FCA5A2606689300F50032 /* DoubleTapCounterTests */,
+				C24FCA652606689300F50032 /* DoubleTapCounterUITests */,
+				C24FCA422606689200F50032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24FCA422606689200F50032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24FCA412606689200F50032 /* DoubleTapCounter.app */,
+				C24FCA572606689300F50032 /* DoubleTapCounterTests.xctest */,
+				C24FCA622606689300F50032 /* DoubleTapCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24FCA432606689200F50032 /* DoubleTapCounter */ = {
+			isa = PBXGroup;
+			children = (
+				C24FCA442606689200F50032 /* AppDelegate.swift */,
+				C24FCA462606689200F50032 /* SceneDelegate.swift */,
+				C24FCA482606689200F50032 /* ViewController.swift */,
+				C24FCA4A2606689200F50032 /* Main.storyboard */,
+				C24FCA4D2606689300F50032 /* Assets.xcassets */,
+				C24FCA4F2606689300F50032 /* LaunchScreen.storyboard */,
+				C24FCA522606689300F50032 /* Info.plist */,
+			);
+			path = DoubleTapCounter;
+			sourceTree = "<group>";
+		};
+		C24FCA5A2606689300F50032 /* DoubleTapCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C24FCA5B2606689300F50032 /* DoubleTapCounterTests.swift */,
+				C24FCA5D2606689300F50032 /* Info.plist */,
+			);
+			path = DoubleTapCounterTests;
+			sourceTree = "<group>";
+		};
+		C24FCA652606689300F50032 /* DoubleTapCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C24FCA662606689300F50032 /* DoubleTapCounterUITests.swift */,
+				C24FCA682606689300F50032 /* Info.plist */,
+			);
+			path = DoubleTapCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C24FCA402606689200F50032 /* DoubleTapCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24FCA6B2606689300F50032 /* Build configuration list for PBXNativeTarget "DoubleTapCounter" */;
+			buildPhases = (
+				C24FCA3D2606689200F50032 /* Sources */,
+				C24FCA3E2606689200F50032 /* Frameworks */,
+				C24FCA3F2606689200F50032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleTapCounter;
+			productName = DoubleTapCounter;
+			productReference = C24FCA412606689200F50032 /* DoubleTapCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C24FCA562606689300F50032 /* DoubleTapCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24FCA6E2606689300F50032 /* Build configuration list for PBXNativeTarget "DoubleTapCounterTests" */;
+			buildPhases = (
+				C24FCA532606689300F50032 /* Sources */,
+				C24FCA542606689300F50032 /* Frameworks */,
+				C24FCA552606689300F50032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24FCA592606689300F50032 /* PBXTargetDependency */,
+			);
+			name = DoubleTapCounterTests;
+			productName = DoubleTapCounterTests;
+			productReference = C24FCA572606689300F50032 /* DoubleTapCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C24FCA612606689300F50032 /* DoubleTapCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24FCA712606689300F50032 /* Build configuration list for PBXNativeTarget "DoubleTapCounterUITests" */;
+			buildPhases = (
+				C24FCA5E2606689300F50032 /* Sources */,
+				C24FCA5F2606689300F50032 /* Frameworks */,
+				C24FCA602606689300F50032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24FCA642606689300F50032 /* PBXTargetDependency */,
+			);
+			name = DoubleTapCounterUITests;
+			productName = DoubleTapCounterUITests;
+			productReference = C24FCA622606689300F50032 /* DoubleTapCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24FCA392606689200F50032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C24FCA402606689200F50032 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C24FCA562606689300F50032 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C24FCA402606689200F50032;
+					};
+					C24FCA612606689300F50032 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C24FCA402606689200F50032;
+					};
+				};
+			};
+			buildConfigurationList = C24FCA3C2606689200F50032 /* Build configuration list for PBXProject "DoubleTapCounter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24FCA382606689200F50032;
+			productRefGroup = C24FCA422606689200F50032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C24FCA402606689200F50032 /* DoubleTapCounter */,
+				C24FCA562606689300F50032 /* DoubleTapCounterTests */,
+				C24FCA612606689300F50032 /* DoubleTapCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24FCA3F2606689200F50032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24FCA512606689300F50032 /* LaunchScreen.storyboard in Resources */,
+				C24FCA4E2606689300F50032 /* Assets.xcassets in Resources */,
+				C24FCA4C2606689200F50032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24FCA552606689300F50032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24FCA602606689300F50032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24FCA3D2606689200F50032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24FCA492606689200F50032 /* ViewController.swift in Sources */,
+				C24FCA452606689200F50032 /* AppDelegate.swift in Sources */,
+				C24FCA472606689200F50032 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24FCA532606689300F50032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24FCA5C2606689300F50032 /* DoubleTapCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24FCA5E2606689300F50032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24FCA672606689300F50032 /* DoubleTapCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24FCA592606689300F50032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24FCA402606689200F50032 /* DoubleTapCounter */;
+			targetProxy = C24FCA582606689300F50032 /* PBXContainerItemProxy */;
+		};
+		C24FCA642606689300F50032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24FCA402606689200F50032 /* DoubleTapCounter */;
+			targetProxy = C24FCA632606689300F50032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C24FCA4A2606689200F50032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24FCA4B2606689200F50032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C24FCA4F2606689300F50032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24FCA502606689300F50032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C24FCA692606689300F50032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C24FCA6A2606689300F50032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C24FCA6C2606689300F50032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3M56A453W;
+				INFOPLIST_FILE = DoubleTapCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPolousov.DoubleTapCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C24FCA6D2606689300F50032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3M56A453W;
+				INFOPLIST_FILE = DoubleTapCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPolousov.DoubleTapCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C24FCA6F2606689300F50032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3M56A453W;
+				INFOPLIST_FILE = DoubleTapCounterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPolousov.DoubleTapCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleTapCounter.app/DoubleTapCounter";
+			};
+			name = Debug;
+		};
+		C24FCA702606689300F50032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3M56A453W;
+				INFOPLIST_FILE = DoubleTapCounterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPolousov.DoubleTapCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleTapCounter.app/DoubleTapCounter";
+			};
+			name = Release;
+		};
+		C24FCA722606689300F50032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3M56A453W;
+				INFOPLIST_FILE = DoubleTapCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPolousov.DoubleTapCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleTapCounter;
+			};
+			name = Debug;
+		};
+		C24FCA732606689300F50032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3M56A453W;
+				INFOPLIST_FILE = DoubleTapCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IgorPolousov.DoubleTapCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoubleTapCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24FCA3C2606689200F50032 /* Build configuration list for PBXProject "DoubleTapCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24FCA692606689300F50032 /* Debug */,
+				C24FCA6A2606689300F50032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24FCA6B2606689300F50032 /* Build configuration list for PBXNativeTarget "DoubleTapCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24FCA6C2606689300F50032 /* Debug */,
+				C24FCA6D2606689300F50032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24FCA6E2606689300F50032 /* Build configuration list for PBXNativeTarget "DoubleTapCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24FCA6F2606689300F50032 /* Debug */,
+				C24FCA702606689300F50032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24FCA712606689300F50032 /* Build configuration list for PBXNativeTarget "DoubleTapCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24FCA722606689300F50032 /* Debug */,
+				C24FCA732606689300F50032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24FCA392606689200F50032 /* Project object */;
+}
